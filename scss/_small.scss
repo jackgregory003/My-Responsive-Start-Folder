@@ -21,7 +21,7 @@ html {
   }
 
   #headerWrapper {
-    background-color: rgb(98, 189, 241);
+    background-color: #e69500;
     color: $secondaryColor;
   }
   header {
@@ -33,12 +33,12 @@ html {
         margin: 0;
         font-size: 1.2rem;
         font-weight: $normalWeight;
-        color: white;
+        color: rgb(0, 0, 0);
     }
   }
 
   #navWrapper {
-    background-color: bisque;
+    background-color: #000000;
   }
 
   nav {
@@ -49,19 +49,19 @@ html {
         display: flex;
         li {flex:1;}
     }
-    li.active {background-color: rgb(255, 166, 0);}
+    li.active {background-color: rgb(0, 0, 0);}
     a {
         display: block;
         padding: 0.75rem;
-        color: white; 
+        color: #e69500; 
         text-align: center;
         text-decoration: none;
-        &:hover {color: rgb(219, 44, 0)}
+        &:hover {color: rgb(255, 255, 255)}
     }
   }
 // begin the footer
 #footerWrapper {
-    background-color: cornsilk;
+    background-color: #e69500;
 }
 footer{
     padding: 0.5rem $gutter;
