@@ -49,8 +49,8 @@ html {
         display: flex;
         li {flex:1;}
     }
-    li.active {background-color: #b6b6b6;}
-    a {
+    li.active a {
+        background-color: #b6b6b6;
         display: block;
         padding: 0.75rem;
         color: #e69500; 
